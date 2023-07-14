@@ -46,5 +46,13 @@ console.log('User can not vote if its age  than 18 or not CNIC: ' ,age<18 || !cn
 
 
 // • Test whether an item is in a array
+ 
+let car: string[]=['Cultus', 'Mehran', 'Suzuki', 'Alto', 'City', 'chenhan'];
+console.log('Car Arary! ',car);
+console.log('Is "Suzuki" is exist in car Array? I predict True');
+console.log(car.indexOf('Suzuki')!=-1);
+
 
 // • Test whether an item is not in a array
+console.log('Is "Vigo" is NOT exist in car Array? I predict fasle');
+console.log(car.indexOf('Vigo')!=-1);
