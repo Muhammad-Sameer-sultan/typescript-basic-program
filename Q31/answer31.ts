@@ -2,13 +2,14 @@
 // • If the list is empty, print the message We need to find some users!
 let usernames: string[]=['asad','sameer','kinza','admin','ayshia'];
 
-for (const user of usernames){
+while(usernames.length>0){
+    let remove_user= usernames.pop();
+    console.log(`${remove_user} is removed form user list`);
     
-    let remove_user=usernames.pop();
-    console.log(`${remove_user} is removed form list`);
-} 
+}
+
 
 // • Remove all of the usernames from your array, and make sure the correct message is printed.
-if(usernames.length === 0){
+if(usernames.length===0){
    console.log(`We need to find some users!`)
 }
